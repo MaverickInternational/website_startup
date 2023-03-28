@@ -14,8 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -33,12 +32,12 @@
 </head>
 
 <body>
-<!-- Spinner Start -->
-    <div id="spinner"
-         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
-    <!--    --><?php //require "loadAnimation.html"?>
+    <!--    --><?php //require "loadAnimation.html"
+                ?>
     <!-- Spinner End -->
 
     <!-- header Start -->
@@ -66,15 +65,17 @@
                             <a href="price.html" class="dropdown-item">Pricing Plan</a>
                             <a href="feature.html" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-<!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
-<!--                            <a href="quote.html" class="dropdown-item">Free Quote</a>-->
+                            <!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
+                            <!--                            <a href="quote.html" class="dropdown-item">Free Quote</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
-                            class="fa fa-search"></i></butaton>
-                <a href="#" class="btn btn-primary py-2 px-4 ms-3" style="border-radius: 50px;">SignIn</a>
+                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                <div class="buttons">
+                    <button class="py-2 px-4 ms-3 btn-hover color-1">Sign In</button>
+                </div>
+
             </div>
         </nav>
     </div>
@@ -86,9 +87,9 @@
                     <div class="p-3" style="max-width: 900px;">
                         <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                         <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free
+                        <a href="quote.html" class="btn btn-primary buttons-borders py-md-3 px-md-5 me-3 animated slideInLeft">Free
                             Quote</a>
-                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -98,20 +99,18 @@
                     <div class="p-3" style="max-width: 900px;">
                         <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                         <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free
+                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft buttons-borders">Free
                             Quote</a>
-                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact Us</a>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -123,10 +122,8 @@
         <div class="container py-5 pt-lg-0">
             <div class="row gx-0">
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
-                         style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
-                             style="width: 60px; height: 60px;">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
                             <i class="fa fa-users text-primary"></i>
                         </div>
                         <div class="ps-4">
@@ -136,10 +133,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
-                         style="height: 150px;">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
-                             style="width: 60px; height: 60px;">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
                             <i class="fa fa-check text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -149,10 +144,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
-                         style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
-                             style="width: 60px; height: 60px;">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
                             <i class="fa fa-award text-primary"></i>
                         </div>
                         <div class="ps-4">
@@ -189,8 +182,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -198,13 +190,13 @@
                             <h4 class="text-primary mb-0">070 123 55 71</h4>
                         </div>
                     </div>
-                    <a href="contact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
+                    <a href="contact.php" class=" mt-4 btn10 wow zoomIn " data-wow-delay="0.9s">Contact
                         Us</a>
+
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                             src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn " data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -224,16 +216,14 @@
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                 style="width: 60px; height: 60px;">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                             <h4>Best In Industry</h4>
                             <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                 style="width: 60px; height: 60px;">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>Award Winning</h4>
@@ -243,23 +233,20 @@
                 </div>
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
-                             src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                 style="width: 60px; height: 60px;">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                             <h4>Professional Staff</h4>
                             <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                 style="width: 60px; height: 60px;">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <h4>24/7 Support</h4>
@@ -288,7 +275,7 @@
                         </div>
                         <h4 class="mb-3">Research & Development</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.php">
+                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -300,7 +287,7 @@
                         </div>
                         <h4 class="mb-3">IT Consultation & Development</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.php">
+                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -312,7 +299,7 @@
                         </div>
                         <h4 class="mb-3">Marketing</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.php">
+                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -339,17 +326,12 @@
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
                             </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                        class="fa fa-times text-danger pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                        class="fa fa-times text-danger pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-times text-danger pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
                     </div>
@@ -362,17 +344,12 @@
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
                             </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                        class="fa fa-times text-danger pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
                     </div>
@@ -385,17 +362,12 @@
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
                             </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                        class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
                     </div>
@@ -540,14 +512,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/poojitha.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -561,14 +529,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Menuka.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -582,14 +546,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Shehan.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -605,14 +565,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Chathumini.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -626,14 +582,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Amandi.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -647,14 +599,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Kavindi.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -670,14 +618,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/praboth.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -691,14 +635,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Kamalajeewa.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -712,14 +652,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100 prof_img" src="img/profile/Ruveen.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -746,8 +682,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                               href="">Web Design</a>
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
@@ -764,8 +699,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                               href="">Web Design</a>
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
@@ -782,8 +716,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                               href="">Web Design</a>
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
@@ -863,12 +796,9 @@
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square" href="#"><i
-                                            class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -919,7 +849,8 @@
                             Reserved.
 
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+                            Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </p>
                         <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                     </div>
                 </div>

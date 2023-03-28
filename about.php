@@ -70,7 +70,7 @@
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a>
+                <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
@@ -118,7 +118,7 @@
                             <h4 class="text-primary mb-0">070 123 55 71</h4>
                         </div>
                     </div>
-                    <a href="contact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
+                    <a href="contact.php" class="btn10 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
                         Us</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">

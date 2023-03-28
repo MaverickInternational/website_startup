@@ -71,7 +71,7 @@
                     <a href="contact.php" class="nav-item nav-link active">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a>
+                <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
 
@@ -147,7 +147,7 @@
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn10 w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
