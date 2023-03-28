@@ -275,7 +275,7 @@
                         </div>
                         <h4 class="mb-3">Research & Development</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
+                        <a class="btn arrow-button arrow-button-white arrow-button-animate" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -287,7 +287,7 @@
                         </div>
                         <h4 class="mb-3">IT Consultation & Development</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
+                        <a class="btn arrow-button arrow-button-white arrow-button-animate" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -299,7 +299,7 @@
                         </div>
                         <h4 class="mb-3">Marketing</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary buttons-borders" href="service.php">
+                        <a class="btn arrow-button arrow-button-white arrow-button-animate" href="service.php">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -861,7 +861,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-outline-primary buttons-borders back-to-top" style="color: #19cb07;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
