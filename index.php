@@ -62,7 +62,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
+<!--                            <a href="price.html" class="dropdown-item">Pricing Plan</a>-->
                             <a href="feature.html" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
                             <!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
@@ -71,11 +71,10 @@
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
                 <div class="buttons">
                     <button class="py-2 px-4 ms-3 btn-hover color-1">Sign In</button>
                 </div>
-
             </div>
         </nav>
     </div>
@@ -102,6 +101,7 @@
                         <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft buttons-borders">Free
                             Quote</a>
                         <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact Us</a>
+<!--                        <a href="contact.php" class="mt-4 btn10 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>-->
                     </div>
                 </div>
             </div>
@@ -190,8 +190,7 @@
                             <h4 class="text-primary mb-0">070 123 55 71</h4>
                         </div>
                     </div>
-                    <a href="contact.php" class=" mt-4 btn10 wow zoomIn " data-wow-delay="0.9s">Contact
-                        Us</a>
+                    <a href="contact.php" class=" mt-4 btn10 wow zoomIn " data-wow-delay="0.9s">Contact Us</a>
 
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
@@ -285,7 +284,7 @@
                         <div class="service-icon">
                             <i class="fa fa-chart-pie text-white"></i>
                         </div>
-                        <h4 class="mb-3">IT Consultation & Development</h4>
+                        <h4 class="mb-3">IT Consulting for startup companies with partnership</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
                         <a class="btn arrow-button arrow-button-white arrow-button-animate" href="service.php">
                             <i class="bi bi-arrow-right"></i>
@@ -297,7 +296,7 @@
                         <div class="service-icon">
                             <i class="fa fa-code text-white"></i>
                         </div>
-                        <h4 class="mb-3">Marketing</h4>
+                        <h4 class="mb-3">Software Product Marketing</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
                         <a class="btn arrow-button arrow-button-white arrow-button-animate" href="service.php">
                             <i class="bi bi-arrow-right"></i>
@@ -309,72 +308,71 @@
     </div>
     <!-- Service End -->
 
-
     <!-- Pricing Plan Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Pricing Plans</h5>
-                <h1 class="mb-0">We are Offering Competitive Prices for Our Clients</h1>
-            </div>
-            <div class="row g-0">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Basic Plan</h4>
-                            <small class="text-uppercase">For Small Size Business</small>
-                        </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Standard Plan</h4>
-                            <small class="text-uppercase">For Medium Size Business</small>
-                        </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Advanced Plan</h4>
-                            <small class="text-uppercase">For Large Size Business</small>
-                        </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">-->
+<!--        <div class="container py-5">-->
+<!--            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">-->
+<!--                <h5 class="fw-bold text-primary text-uppercase">Pricing Plans</h5>-->
+<!--                <h1 class="mb-0">We are Offering Competitive Prices for Our Clients</h1>-->
+<!--            </div>-->
+<!--            <div class="row g-0">-->
+<!--                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">-->
+<!--                    <div class="bg-light rounded">-->
+<!--                        <div class="border-bottom py-4 px-5 mb-4">-->
+<!--                            <h4 class="text-primary mb-1">Basic Plan</h4>-->
+<!--                            <small class="text-uppercase">For Small Size Business</small>-->
+<!--                        </div>-->
+<!--                        <div class="p-5 pt-0">-->
+<!--                            <h1 class="display-5 mb-3">-->
+<!--                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>-->
+<!--                            </h1>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-times text-danger pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>-->
+<!--                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">-->
+<!--                    <div class="bg-white rounded shadow position-relative" style="z-index: 1;">-->
+<!--                        <div class="border-bottom py-4 px-5 mb-4">-->
+<!--                            <h4 class="text-primary mb-1">Standard Plan</h4>-->
+<!--                            <small class="text-uppercase">For Medium Size Business</small>-->
+<!--                        </div>-->
+<!--                        <div class="p-5 pt-0">-->
+<!--                            <h1 class="display-5 mb-3">-->
+<!--                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>-->
+<!--                            </h1>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>-->
+<!--                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">-->
+<!--                    <div class="bg-light rounded">-->
+<!--                        <div class="border-bottom py-4 px-5 mb-4">-->
+<!--                            <h4 class="text-primary mb-1">Advanced Plan</h4>-->
+<!--                            <small class="text-uppercase">For Large Size Business</small>-->
+<!--                        </div>-->
+<!--                        <div class="p-5 pt-0">-->
+<!--                            <h1 class="display-5 mb-3">-->
+<!--                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>-->
+<!--                            </h1>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary pt-1"></i></div>-->
+<!--                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!-- Pricing Plan End -->
 
     <!-- Quote Start -->
@@ -755,7 +753,6 @@
     </div>
     <!-- Vendor End -->
 
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -861,7 +858,8 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-primary buttons-borders back-to-top" style="color: #19cb07;"><i class="bi bi-arrow-up"></i></a>
+<!--    <a href="#" class="btn btn-outline-primary buttons-borders back-to-top" style="color: #af0000;"><i class="bi bi-arrow-up"></i></a>-->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
