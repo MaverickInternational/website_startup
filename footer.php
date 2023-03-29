@@ -36,11 +36,11 @@
                 <div class="col-lg-3 col-md-3 footer-links">
                     <h4 style="color: #19cb07;">Our Services</h4>
                     <ul>
-                        <li><a href="#">Research & Development</a></li>
-                        <li><a href="#">IT Consultation</a></li>
-                        <li><a href="#">Software Marketing</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="service.php">Research & Development</a></li>
+                        <li><a href="service.php">IT Consultation</a></li>
+                        <li><a href="service.php">Software Marketing</a></li>
+                        <li><a href="service.php">Digital Marketing</a></li>
+                        <li><a href="service.php">SEO Optimization</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 

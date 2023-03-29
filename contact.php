@@ -64,7 +64,7 @@
                             <a href="price.php" class="dropdown-item">Project Plan</a>
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                             <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
                         </div>
                     </div>
