@@ -57,15 +57,15 @@
                     <a href="index.php" class="nav-item nav-link">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link active">Services</a>
-                    <a href="#" class="nav-link" data-bs-toggle="dropdown">Blog</a>
+                    <a href="blog.php" class="nav-item nav-link">Blog</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <!--                            <a href="price.html" class="dropdown-item">Pricing Plan</a>-->
+                            <a href="price.php" class="dropdown-item">Project Plan</a>
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-                            <!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
-                            <!--                            <a href="quote.html" class="dropdown-item">Free Quote</a>-->
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -210,33 +210,15 @@
     <!-- Service End -->
 
     <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5 mb-5">
-            <div class="bg-white">
-                <div class="owl-carousel vendor-carousel">
-                    <img src="img/vendor-1.jpg" alt="">
-                    <img src="img/vendor-2.jpg" alt="">
-                    <img src="img/vendor-3.jpg" alt="">
-                    <img src="img/vendor-4.jpg" alt="">
-                    <img src="img/vendor-5.jpg" alt="">
-                    <img src="img/vendor-6.jpg" alt="">
-                    <img src="img/vendor-7.jpg" alt="">
-                    <img src="img/vendor-8.jpg" alt="">
-                    <img src="img/vendor-9.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php require "languages.php"?>
     <!-- Vendor End -->
 
     <!-- Footer Start -->
     <?php require "footer.php" ?>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+<!--    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a-->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -249,6 +231,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <?php require "message.php"?>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>

@@ -77,15 +77,15 @@
                     <a href="index.php" class="nav-item nav-link">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Services</a>
-                    <a href="#" class="nav-link" data-bs-toggle="dropdown">Blog</a>
+                    <a href="blog.php" class="nav-item nav-link">Blog</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.php" class="dropdown-item">Pricing Plan</a>
+                            <a href="price.php" class="dropdown-item">Project Plan</a>
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item active">Team Members</a>
-                            <!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
-                            <!--                            <a href="quote.html" class="dropdown-item">Free Quote</a>-->
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -138,13 +138,11 @@
             <div class="row g-5 d-flex justify-content-center align-items-lg-center">
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/poojitha.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/poojitha.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -155,13 +153,11 @@
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Menuka.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Menuka.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -172,13 +168,11 @@
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Shehan.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Shehan.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -191,30 +185,26 @@
             <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Chathumini.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Chathumini.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-primary">Chathumini Kahathuduwa</h5>
+                            <h4 class="text-primary">Chathumini Kahathuduwa</h4>
                             <p class="text-uppercase m-0">Director</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Amandi.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Amandi.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -225,13 +215,11 @@
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Kavindi.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Kavindi.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -244,13 +232,11 @@
             <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/praboth.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/praboth.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -261,13 +247,11 @@
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Kamalajeewa.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Kamalajeewa.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -278,13 +262,11 @@
                 </div>
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100 prof_img" src="img/profile/Ruveen.jpg" alt="">
+                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">
+                            <img class="prof_img rounded-circle" src="img/profile/Ruveen.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary rounded-circle" href=""><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -326,7 +308,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!--    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>-->
 
 
     <!-- JavaScript Libraries -->
@@ -340,6 +322,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <?php require "message.php"?>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>

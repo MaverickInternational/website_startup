@@ -2864,13 +2864,13 @@ textarea.form-control-lg {
 
 .btn-primary:hover {
     color: #000;
-    background-color: #2bb1e0;
+    background-color: #1c9b53;
     border-color: #1facde
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
     color: #000;
-    background-color: #2bb1e0;
+    background-color: #1c9b53;
     border-color: #1facde;
     box-shadow: 0 0 0 .25rem rgba(5, 139, 185, 0.5)
 }
