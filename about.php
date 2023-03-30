@@ -46,7 +46,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Maverick</h1>
+                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -137,9 +137,9 @@
                 <h4 class="fw-bold text-primary text-uppercase">Our Vision</h4>
             </div>
             <div class="row g-5">
-                <div class="wow slideInUp" data-wow-delay="0.3s">
+                <div class="" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="text-center py-4" style="height: 120px;">
+                        <div class=" text-center py-4" style="height: 160px;">
                             <p class="m-0">Advance with Technology for Technological warfare.</p>
                         </div>
                     </div>
@@ -151,9 +151,9 @@
                 <h4 class="fw-bold text-primary text-uppercase">Our Mission</h4>
             </div>
             <div class="row g-5">
-                <div class="wow slideInUp" data-wow-delay="0.3s">
+                <div class="wow" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="text-center py-4" style="height: 120px;">
+                        <div class="text-center py-4" style="height: 160px;">
                             <p class="m-0">To become a worldwide leading software company by introducing new technologies to the ever-developing business world creating the way easier to connect with the soft world physically for human beings.</p>
                         </div>
                     </div>

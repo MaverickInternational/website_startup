@@ -38,7 +38,6 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- header Start -->
     <?php require "header.php" ?>
     <!-- header End -->
@@ -47,7 +46,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Maverick</h1>
+                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -65,13 +64,11 @@
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
                             <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                            <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link active">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
 
@@ -135,19 +132,23 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <label>Your Name</label>
+                                <input type="text" id="name" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <label>Your Email</label>
+                                <input type="email" id="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <label>Subject</label>
+                                <input type="text" id="subject" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <label>Message</label>
+                                <textarea id="msg" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn10 w-100 py-3" type="submit">Send Message</button>
+                                <button id="submit" class="btn10 w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>

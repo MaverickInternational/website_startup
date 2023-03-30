@@ -91,7 +91,7 @@
                             <a href="feature.php" class="dropdown-item active">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
                             <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                            <a href="quote.php" class="dropdown-item">Free Quote</a>
+                            <a href="quote.html" class="dropdown-item">Free Quote</a>
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>

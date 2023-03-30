@@ -38,7 +38,6 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
     <?php require "header.php" ?>
     <!-- Topbar End -->
@@ -47,7 +46,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Maverick</h1>
+                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -74,7 +73,6 @@
                 <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
-
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -102,7 +100,10 @@
                             <i class="bi bi-journal-album text-white"></i>
                         </div>
                         <h4 class="mb-3">Research & Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">We are artificial intelligence researchers and researchers. We are working on new
+                            technology that will change the world. We believe in giving people the best of the best, so
+                            our products are always top quality and updated with the latest research.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -111,25 +112,34 @@
                             <i class="fa fa-users text-white"></i>
                         </div>
                         <h4 class="mb-3">IT Consulting for startup companies with partnership</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">We provide IT Consultancy services for start-up companies in partnership with the
+                            business owner. Our consultants will guide and advise on how to improve the current systems
+                            of your business and make it more efficient.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="bi bi-laptop text-white"></i>
+                            <i class="bi bi-shop-window text-white"></i>
                         </div>
                         <h4 class="mb-3">Software Product Marketing</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">Traditional software marketing is geared towards corporations who want to sell
+                            their products to others. However, not all software businesses are in the business of
+                            selling to other businesses. Some software businesses want to market their products internally.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="bi bi-window-dock text-white"></i>
+                            <i class="fa fa-code text-white"></i>
                         </div>
                         <h4 class="mb-3">Web Application Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">Our team of experienced, creative and talented web developers create unique website
+                            designs that are unique. We can create your ideas in to working reality by using our extensive
+                            knowledge on computer and internet technology.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -137,35 +147,48 @@
                         <div class="service-icon">
                             <i class="bi bi-tablet text-white"></i>
                         </div>
-                        <h4 class="mb-3">Mobile Application Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">Android Application Development</h4>
+                        <p class="m-0">we are provide android design and quality development services to both web apps,
+                            mobile devices and IoT. We are committed to delivering innovative solutions tailored to your
+                            specific needs, be it the creation of a single app or an entire user experience.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="bi bi-display-fill text-white"></i>
+                            <i class="bi bi-tablet text-white"></i>
                         </div>
-                        <h4 class="mb-3">Desktop Application Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">IOS Application Development</h4>
+                        <p class="m-0">Our company offers iOS app design and development services with a team of experts
+                            who create awesome apps tailored to your business needs. We provide idea generation,
+                            designing mockups, and prototypes to meet your expectations.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
+                            <i class="bi bi-display-fill text-white"></i>
                         </div>
-                        <h4 class="mb-3">Database Management</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">Desktop Application Development</h4>
+                        <p class="m-0">We provide custom desktop app design and development services to enhance productivity
+                            and optimize workflow for businesses. Our team creates exceptional solutions tailored to
+                             your needs.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
+<!--                            <i class="fa fa-search text-white"></i>-->
+                            <i class="bi bi-bag-fill text-white"></i>
                         </div>
                         <h4 class="mb-3">POS System Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">The company provides a dependable POS system to businesses that can process transactions,
+                            handle inventory, and track sales data to enhance their operations. The team of experts offers
+                            tailored support to ensure the system runs without any issues.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
@@ -174,7 +197,10 @@
                             <i class="bi bi-cart-check-fill text-white"></i>
                         </div>
                         <h4 class="mb-3">E-Commerce Application Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">We are providing E commerce we application design and development. These products
+                            will increase the sales for your business. we can help you to create an online store, landing page,
+                            mobile app and much more with responsive design that perfectly suits every device.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -183,7 +209,10 @@
                             <i class="bi bi-bezier text-white"></i>
                         </div>
                         <h4 class="mb-3">SEO Optimization</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">The company's SEO services improve website traffic and search engine visibility
+                            by using modern tools and strategies. They offer a comprehensive SEO solution that includes
+                            keyword research, content creation, and other techniques to help clients achieve their online goals.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -191,17 +220,24 @@
                         <div class="service-icon">
                             <i class="fa fa-shield-alt text-white"></i>
                         </div>
-                        <h4 class="mb-3">Graphic Design</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">Database Management</h4>
+                        <p class="m-0">Database Management service is our specialty. We provide you a solution that meets
+                            your needs and budget, from small startups to multinationals. Our team of Data Architects and
+                            Developers will make sure that your business has the most accurate data possible to manage
+                            effectively and efficiently.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="bi bi-shop-window text-white"></i>
+                            <i class="bi bi-laptop text-white"></i>
                         </div>
                         <h4 class="mb-3">Digital Marketing</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">We provide digital marketing services. We help businesses to increase their online
+                            presence, drive growth and engage customers. We believe that customer relationships are
+                            established on the connections you make with them and through your website.
+                        </p>
                     </div>
                 </div>
             </div>
