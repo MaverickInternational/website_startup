@@ -137,7 +137,7 @@
                 <h4 class="fw-bold text-primary text-uppercase">Our Vision</h4>
             </div>
             <div class="row g-5">
-                <div class="" data-wow-delay="0.3s">
+                <div class="d-flex justify-content-center align-items-center" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class=" text-center py-4" style="height: 160px;">
                             <p class="m-0">Advance with Technology for Technological warfare.</p>
@@ -151,7 +151,7 @@
                 <h4 class="fw-bold text-primary text-uppercase">Our Mission</h4>
             </div>
             <div class="row g-5">
-                <div class="wow" data-wow-delay="0.3s">
+                <div class="wow d-flex justify-content-center align-items-center" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="text-center py-4" style="height: 160px;">
                             <p class="m-0">To become a worldwide leading software company by introducing new technologies to the ever-developing business world creating the way easier to connect with the soft world physically for human beings.</p>

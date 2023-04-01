@@ -138,22 +138,22 @@
                 <div class="row g-3">
                     <div class="col-md-6">
                         <label>Your Name</label>
-                        <input type="text" id="name" class="form-control border-0 bg-light px-4"
+                        <input type="text" id="name" required class="form-control border-0 bg-light px-4"
                                placeholder="Your Name" style="height: 55px;">
                     </div>
                     <div class="col-md-6">
                         <label>Your Email</label>
-                        <input type="email" id="email" class="form-control border-0 bg-light px-4"
+                        <input type="email" id="email" required class="form-control border-0 bg-light px-4"
                                placeholder="Your Email" style="height: 55px;">
                     </div>
                     <div class="col-12">
                         <label>Subject</label>
-                        <input type="text" id="subject" class="form-control border-0 bg-light px-4"
+                        <input type="text" id="subject" required class="form-control border-0 bg-light px-4"
                                placeholder="Subject" style="height: 55px;">
                     </div>
                     <div class="col-12">
                         <label>Message</label>
-                        <textarea id="msg" class="form-control border-0 bg-light px-4 py-3" rows="4"
+                        <textarea id="msg" class="form-control required border-0 bg-light px-4 py-3" rows="4"
                                   placeholder="Message"></textarea>
                     </div>
                     <div class="col-12">
@@ -164,7 +164,7 @@
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
                 <iframe lass="col-lg-6 wow slideInUp" data-wow-delay="0.6s"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58585958437!2d79.78616414163588!3d6.922003946889596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1679926060500!5m2!1sen!2slk"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
@@ -202,13 +202,34 @@
 
 <script type="text/javascript">
     $("#submit1").click(function () {
-        const name = $("#name").val();
-        const email = $("#email").val();
-        const subject = $("#subject").val();
-        const message = $("#msg").val();
-        const message1 = document.getElementById("msg").value;
+        const name = $("#name");
+        const subject = $("#subject");
+        const email = $("#email");
+        const message = $("#msg");
 
-        console.log(name, email, subject, message);
+        if (name.val() == "") {
+            name.focus();
+        } else if (email.val() == "") {
+            email.focus();
+        } else if (message.val() == "") {
+            message.focus();
+        } else {
+            if (subject.val() == "") {
+                subject = "User didn't entered subject";
+            } else {
+                subject = subject.val();
+            }
+            $.ajax({
+                url: "https://formsubmit.co/ajax/probothcharith@gmail.com",
+                method: "POST",
+                data: {
+                    name: name.val(),
+                    subject: subject
+                }, success: (data) => console.log(data),
+                error: (err) => console.log(err),
+                dataType: "json"
+            });
+        }
 
     });
 </script>
