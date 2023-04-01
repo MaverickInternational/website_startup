@@ -60,10 +60,10 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-<!--                            <a href="price.php" class="dropdown-item">Project Plan</a>-->
+                            <a href="price.php" class="dropdown-item">Project Plan</a>
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-<!--                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>-->
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link active">Contact</a>
@@ -71,6 +71,7 @@
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
             </div>
         </nav>
+
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
