@@ -5,8 +5,8 @@
             <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
         </div>
         <div class="row g-5 d-flex justify-content-center align-items-lg-center">
-            <div class="col-lg-3 col-md-6 wow fadeInDown " data-wow-delay="0.3s">
-                <div class="team-item text-center rounded ">
+            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/poojitha.jpg" alt="">
                     </div>

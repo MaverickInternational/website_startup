@@ -9,7 +9,7 @@
         }
 
         body {
-            background-color: #FFFFFF;
+            background-color: #0c0c0c;
             /*background-image: url("images/classy_fabric.png");*/
             display: flex;
             justify-content: center;

@@ -32,23 +32,21 @@
 </head>
 
 <body>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="cs">
-            <div class="cs1">
-                <div>
-                    <p class="text-center text-white fs-1">Expect our blog soon.</p>
-                    <p class="text-center text-white fs-2">Stay with us.</p>
-                    <div style="width: 100%; display: flex; justify-content: center;">
-                        <button class="py-2 px-3 ms-3 btn-hover color-1" onclick="window.location='index.php'">Back to Home</button>
-<!--                        <button class="py-2 px-4 ms-3 btn-hover color-1">Sign In</button>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cs">
+                <div class="cs1">
+                    <div>
+                        <p class="text-center text-white fs-1">Expect our blog soon.</p>
+                        <p class="text-center text-white fs-2">Stay with us.</p>
+                        <div style="width: 100%; display: flex; justify-content: center;">
+                            <button class="py-2 px-3 ms-3 btn-hover color-1" onclick="window.location='index.php'">Back to Home</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>

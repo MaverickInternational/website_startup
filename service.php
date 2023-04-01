@@ -38,9 +38,9 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
+    <!-- header Start -->
     <?php require "header.php" ?>
-    <!-- Topbar End -->
+    <!-- header End -->
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
@@ -60,17 +60,15 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.php" class="dropdown-item">Project Plan</a>
+<!--                            <a href="price.php" class="dropdown-item">Project Plan</a>-->
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                            <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
+<!--                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
@@ -111,7 +109,7 @@
                         <div class="service-icon">
                             <i class="fa fa-users text-white"></i>
                         </div>
-                        <h4 class="mb-3">IT Consulting for startup companies with partnership</h4>
+                        <h4 class="mb-3">IT Consulting For Startup Companies With Partnership</h4>
                         <p class="m-0">We provide IT Consultancy services for start-up companies in partnership with the
                             business owner. Our consultants will guide and advise on how to improve the current systems
                             of your business and make it more efficient.
@@ -173,15 +171,13 @@
                         </div>
                         <h4 class="mb-3">Desktop Application Development</h4>
                         <p class="m-0">We provide custom desktop app design and development services to enhance productivity
-                            and optimize workflow for businesses. Our team creates exceptional solutions tailored to
-                             your needs.
+                            and optimize workflow for businesses. Our team creates exceptional solutions tailored to your needs.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-<!--                            <i class="fa fa-search text-white"></i>-->
                             <i class="bi bi-bag-fill text-white"></i>
                         </div>
                         <h4 class="mb-3">POS System Development</h4>
@@ -197,9 +193,9 @@
                             <i class="bi bi-cart-check-fill text-white"></i>
                         </div>
                         <h4 class="mb-3">E-Commerce Application Development</h4>
-                        <p class="m-0">We are providing E commerce we application design and development. These products
+                        <p class="m-0">We are providing E-commerce web application design and development. These products
                             will increase the sales for your business. we can help you to create an online store, landing page,
-                            mobile app and much more with responsive design that perfectly suits every device.
+                            mobile app and much more with responsive design that perfectly suits every device.
                         </p>
                     </div>
                 </div>
@@ -224,7 +220,7 @@
                         <p class="m-0">Database Management service is our specialty. We provide you a solution that meets
                             your needs and budget, from small startups to multinationals. Our team of Data Architects and
                             Developers will make sure that your business has the most accurate data possible to manage
-                            effectively and efficiently.
+                            effectively and efficiently.
                         </p>
                     </div>
                 </div>
@@ -236,7 +232,7 @@
                         <h4 class="mb-3">Digital Marketing</h4>
                         <p class="m-0">We provide digital marketing services. We help businesses to increase their online
                             presence, drive growth and engage customers. We believe that customer relationships are
-                            established on the connections you make with them and through your website.
+                            established on the connections you make with them and through your website.
                         </p>
                     </div>
                 </div>
