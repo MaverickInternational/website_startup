@@ -43,7 +43,7 @@
                     <div class="social-links d-flex mt-3">
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100090849041734" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                        <a href="https://instagram.com/maverick_international_sl?igshid=ZDdkNTZiNTM=" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div><!-- End footer links column-->
