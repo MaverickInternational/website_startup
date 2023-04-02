@@ -38,11 +38,9 @@
     </div>
     <!-- Spinner End -->
 
-
-    <!-- Topbar Start -->
+    <!-- header Start -->
     <?php require "header.php"?>
-    <!-- Topbar End -->
-
+    <!-- header End -->
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
@@ -62,10 +60,10 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.php" class="dropdown-item">Project Plan</a>
+<!--                            <a href="price.html" class="dropdown-item">Project Plan</a>-->
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item active">Team Members</a>
-                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+<!--                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -73,7 +71,6 @@
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
             </div>
         </nav>
-
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -87,194 +84,20 @@
     </div>
     <!-- Navbar End -->
 
-
-    <!-- Full Screen Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Full Screen Search End -->
-
-
     <!-- Team Start -->
     <?php require "members.php"?>
-
-<!--    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">-->
-<!--        <div class="container py-5">-->
-<!--            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">-->
-<!--                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>-->
-<!--                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>-->
-<!--            </div>-->
-<!--            <div class="row g-5 d-flex justify-content-center align-items-lg-center">-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/poojitha.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Poojitha Irosha</h4>-->
-<!--                            <p class="text-uppercase m-0">CEO</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Menuka.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Menuka Malinda</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Shehan.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Shehan Kaushalya</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Chathumini.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Chathumini Kahathuduwa</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Amandi.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Shashini Amandi</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Kavindi.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Kavindi Lakshani</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/praboth.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Praboth Charith</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Kamalajeewa.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Kamalajeewa Dilshan</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.9s">-->
-<!--                    <div class="team-item bg-light rounded overflow-hidden">-->
-<!--                        <div class="d-flex justify-content-center align-items-lg-center mt-3 rounded-circle team-img position-relative overflow-hidden">-->
-<!--                            <img class="prof_img rounded-circle" src="img/profile/Ruveen.jpg" alt="">-->
-<!--                            <div class="team-social">-->
-<!--                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>-->
-<!--                                <a class="btn btn-lg btn-primary rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="text-center py-4">-->
-<!--                            <h4 class="text-primary">Ruvindu Pathirana</h4>-->
-<!--                            <p class="text-uppercase m-0">Director</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
     <!-- Team End -->
-
 
     <!-- Vendor Start -->
    <?php require "languages.php"?>
     <!-- Vendor End -->
 
-
     <!-- Footer Start -->
     <?php require "footer.php" ?>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
 <!--    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>-->
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

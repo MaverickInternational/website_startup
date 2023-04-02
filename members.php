@@ -7,7 +7,7 @@
         <div class="row g-5 d-flex justify-content-center align-items-lg-center">
             <div class="col-lg-3 col-md-6 wow fadeInDown " data-wow-delay="0.3s">
                 <div class="team-item text-center rounded ">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/poojitha.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Poojitha Irosha</h5>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Menuka.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Menuka Malinda</h5>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/shehan.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Shehan Kaushalya</h5>
@@ -51,7 +51,7 @@
         <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.3s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Chathumini.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Chathumini Kahathuduwa</h5>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Amandi.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Shashini Amandi</h5>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Kavindi.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Kavindi Lakshani</h5>
@@ -95,7 +95,7 @@
         <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.3s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/praboth.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Praboth Charith</h5>
@@ -109,7 +109,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Kamalajeewa.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Kamalajeewa Dilshan</h5>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
-                    <div class="img-div overflow-hidden m-4">
+                    <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Ruveen.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Ruvindu Pathirana</h5>

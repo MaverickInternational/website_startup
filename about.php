@@ -60,17 +60,15 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.php" class="dropdown-item">Project Plan</a>
+<!--                            <a href="price.php" class="dropdown-item">Project Plan</a>-->
                             <a href="feature.php" class="dropdown-item">Our features</a>
                             <a href="team.php" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                            <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>-->
+<!--                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>-->
                         </div>
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <!-- <a href="#" class="btn btn-primary py-2 px-4 ms-3 rounded-3">SignIn</a> -->
             </div>
         </nav>
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
@@ -91,25 +89,29 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-3">
+                    <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
                     </div>
                     <h1 class="mb-0">The Best Software Solution With 03 Years of Experience</h1>
-                    <p class="mb-4 mt-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <p class="mb-4 mt-2">We are research based software engineering company that works with new
+                        technology and revealing new technologies and sloutions to increase the reliability of people's time
+                        and make life easier.</p>
+                    <p>Talented training software engineers are on hand to provide consultation and solutions to
+                        your questions and concerns, with our passion for providing the best customer satisfaction at the
+                        fore.</p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Top Rated</h5>
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Best In Industry</h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                             style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -117,12 +119,12 @@
                             <h4 class="text-primary mb-0">070 123 55 71</h4>
                         </div>
                     </div>
-                    <a href="contact.php" class="btn10 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
-                        Us</a>
+                    <a href="contact.php" class=" mt-4 btn10 wow zoomIn " data-wow-delay="0.9s">Contact Us</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn " data-wow-delay="0.9s"
+                             src="img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
