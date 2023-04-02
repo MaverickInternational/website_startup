@@ -33,12 +33,20 @@
 </head>
 
 <body>
-<!-- Spinner Start -->
-<div id="spinner"
-     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner"></div>
+<!-- loading Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="rotateText">
+        <span style="--i:1">M</span>
+        <span style="--i:2">A</span>
+        <span style="--i:3">V</span>
+        <span style="--i:4">E</span>
+        <span style="--i:5">R</span>
+        <span style="--i:6">I</span>
+        <span style="--i:7">C</span>
+        <span style="--i:8">K</span>
+    </div>
 </div>
-<!-- Spinner End -->
+<!-- loading End -->
 
 <!-- header Start -->
 <?php require "header.php" ?>
@@ -214,21 +222,26 @@
         } else if (message.val() == "") {
             message.focus();
         } else {
+            let subject1 = subject.val();
             if (subject.val() == "") {
-                subject = "User didn't entered subject";
+                subject1 = "User didn't entered subject";
             } else {
-                subject = subject.val();
+                subject1 = subject.val();
             }
             $.ajax({
-                url: "https://formsubmit.co/ajax/probothcharith@gmail.com",
+                url: "https://formsubmit.co/ajax/maverickinternationalsl@gmail.com",
                 method: "POST",
                 data: {
                     name: name.val(),
-                    subject: subject
+                    email: email.val(),
+                    subject: subject1,
+                    message: message.val()
                 }, success: (data) => console.log(data),
                 error: (err) => console.log(err),
                 dataType: "json"
             });
+
+            console.log(name.val() + " | " + subject1 + " | " + email.val() + " | " + message.val());
         }
 
     });
