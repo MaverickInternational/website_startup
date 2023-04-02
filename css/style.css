@@ -7,6 +7,35 @@
     --dark: #091e3e;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*loading*/
+
+.rotateText {
+    position: relative;
+}
+
+.rotateText span {
+    position: relative;
+    display: inline-block;
+    font-size: 11vw;
+    color: #19cb07;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg)
+    }
+}
+
+
 /*** Spinner ***/
 .spinner {
     width: 40px;
