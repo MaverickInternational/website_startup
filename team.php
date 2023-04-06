@@ -33,18 +33,7 @@
 
 <body>
 <!-- loading Start -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="rotateText">
-        <span style="--i:1">M</span>
-        <span style="--i:2">A</span>
-        <span style="--i:3">V</span>
-        <span style="--i:4">E</span>
-        <span style="--i:5">R</span>
-        <span style="--i:6">I</span>
-        <span style="--i:7">C</span>
-        <span style="--i:8">K</span>
-    </div>
-</div>
+<?php require "loading.php"?>
 <!-- loading End -->
 
     <!-- header Start -->
@@ -55,7 +44,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
+                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Ciber Protech</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>

@@ -7,7 +7,7 @@
                 <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>070 123 55 71</small>
                 <small class="text-light">
                     <i class="fa fa-envelope-open me-2"></i>
-                    <a href="mailto: maverickinternationalsl@gmail.com" style="color: #FFFFFF">maverickinternationalsl@gmail.com</a>
+                    <a href="mailto: maverickinternationalsl@gmail.com" style="color: #FFFFFF">ciberprotechtechnology@gmail.com</a>
                 </small>
             </div>
         </div>

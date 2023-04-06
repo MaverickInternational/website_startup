@@ -15,7 +15,7 @@
         .rotateText span {
             position: relative;
             display: inline-block;
-            font-size: 45px;
+            font-size: 20px;
             color: #19cb07;
             text-transform: uppercase;
             animation: flip 3s infinite;

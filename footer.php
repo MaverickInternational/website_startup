@@ -4,12 +4,12 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info">
-                        <h3 style="color: #19cb07;">Maverick International</h3>
+                        <h3 style="color: #19cb07;">Ciber Protech</h3>
                         <p>
                             Colombo, <br>
                             Sri Lanka<br><br>
                             <strong>Phone:</strong> 070 123 55 71<br>
-                            <strong>Email:</strong><a href="mailto: maverickinternationalsl@gmail.com"> maverickinternationalsl@gmail.com</a><br>
+                            <strong>Email:</strong><a href="mailto: ciberprotechtechnology@gmail.com"> ciberprotechtechnology@gmail.com</a><br>
                         </p>
                     </div>
                 </div><!-- End footer info column-->
@@ -48,7 +48,7 @@
     <div class="footer-legal text-center position-relative">
         <div class="container">
             <div class="copyright">
-                Copyright &copy; 2023 <strong><span style="color: #19cb07;">Maverick International</span></strong>. All Rights Reserved.
+                Copyright &copy; 2023 <strong><span style="color: #19cb07;">Ciber Protech</span></strong>. All Rights Reserved.
             </div>
         </div>
     </div>

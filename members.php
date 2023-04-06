@@ -4,7 +4,7 @@
             <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
             <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
         </div>
-        <div class="row g-5 d-flex justify-content-center align-items-lg-center">
+        <div class="row g-5 d-flex justify-content-center align-items-center">
             <div class="col-lg-3 col-md-6 wow fadeInDown " data-wow-delay="0.3s">
                 <div class="team-item text-center rounded ">
                     <div class="rounded-circle overflow-hidden m-4">
@@ -22,7 +22,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
-                        <img class="imgs" src="img/profile/Menuka.jpg" alt="">
+                        <img class="imgs" src="img/profile/Menuka.jpeg" alt="">
                     </div>
                     <h5 class="mb-0">Menuka Malinda</h5>
                     <small>Director</small>
