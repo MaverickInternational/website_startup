@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Ciber Protech | Services</title>
+    <title>Maverick International | Services</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -32,9 +32,20 @@
 </head>
 
 <body>
-    <!-- loading Start -->
-    <?php require "loading.php"?>
-    <!-- loading End -->
+<!-- loading Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="rotateText">
+        <span style="--i:1">M</span>
+        <span style="--i:2">A</span>
+        <span style="--i:3">V</span>
+        <span style="--i:4">E</span>
+        <span style="--i:5">R</span>
+        <span style="--i:6">I</span>
+        <span style="--i:7">C</span>
+        <span style="--i:8">K</span>
+    </div>
+</div>
+<!-- loading End -->
 
     <!-- header Start -->
     <?php require "header.php" ?>
@@ -44,7 +55,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Ciber Protech</h1>
+                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
