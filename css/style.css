@@ -26,7 +26,7 @@
     color: #19cb07;
     text-transform: uppercase;
     animation: flip 3s infinite;
-    animation-delay: calc(.2s * var(--i))
+    animation-delay: calc(.05s * var(--i))
 }
 
 @keyframes flip {

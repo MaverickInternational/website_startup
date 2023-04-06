@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info">
-                        <h3 style="color: #19cb07;">Maverick International</h3>
+                        <h3 style="color: #19cb07;">CIBERPROTECH</h3>
                         <p>
                             Colombo, <br>
                             Sri Lanka<br><br>
