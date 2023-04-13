@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info">
-                        <h3 style="color: #19cb07;">Maverick International</h3>
+                        <h3 style="color: #19cb07;">CIBERPROTECH</h3>
                         <p>
                             Colombo, <br>
                             Sri Lanka<br><br>
@@ -48,7 +48,7 @@
     <div class="footer-legal text-center position-relative">
         <div class="container">
             <div class="copyright">
-                Copyright &copy; 2023 <strong><span style="color: #19cb07;">Maverick International</span></strong>. All Rights Reserved.
+                Copyright &copy; 2023 <strong><span style="color: #19cb07;">CIBERPROTECH</span></strong>. All Rights Reserved.
             </div>
         </div>
     </div>

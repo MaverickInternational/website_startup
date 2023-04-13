@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Maverick International | Contact Us</title>
+    <title>CIBERPROTECH | Contact Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -34,18 +34,9 @@
 
 <body>
 <!-- loading Start -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="rotateText">
-        <span style="--i:1">M</span>
-        <span style="--i:2">A</span>
-        <span style="--i:3">V</span>
-        <span style="--i:4">E</span>
-        <span style="--i:5">R</span>
-        <span style="--i:6">I</span>
-        <span style="--i:7">C</span>
-        <span style="--i:8">K</span>
-    </div>
-</div>
+<?php
+require "loadAnimation.php";
+?>
 <!-- loading End -->
 
 <!-- header Start -->
