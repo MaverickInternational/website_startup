@@ -4,22 +4,24 @@
             <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
             <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
         </div>
-        <div class="row g-5 d-flex justify-content-center align-items-center">
-            <div class="col-lg-3 col-md-6 wow fadeInDown " data-wow-delay="0.3s">
+        <div class="row mt-2 g-5 d-flex justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.3s">
                 <div class="team-item text-center rounded ">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/poojitha.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Poojitha Irosha</h5>
                     <small>CEO</small>
-                    <div class="d-flex justify-content-center mt-3">
+                    <div class="d-flex justify-content-center mt-3 ">
                         <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Menuka.jpeg" alt="">
@@ -33,7 +35,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/shehan.jpg" alt="">
@@ -48,8 +51,10 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.3s">
+        <div class="row mt-2 g-5 d-flex justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.3s">
+
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Chathumini.jpg" alt="">
@@ -63,7 +68,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Amandi.jpg" alt="">
@@ -77,7 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Kavindi.jpg" alt="">
@@ -92,8 +99,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-2 g-5 d-flex justify-content-center align-items-lg-center">
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.3s">
+        <div class="row mt-2 g-5 d-flex justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.3s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/praboth.jpg" alt="">
@@ -107,7 +115,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Kamalajeewa.jpg" alt="">
@@ -121,7 +130,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay="0.9s">
+            <div class="col-lg-3 col-md-6 wow fadeInDown d-md-block d-flex justify-content-center
+            align-content-center" data-wow-delay="0.9s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
                         <img class="imgs" src="img/profile/Ruveen.jpg" alt="">
