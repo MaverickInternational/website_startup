@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CIBERPROTECH | About Us</title>
+    <title>CIBER PROTECH | About Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/logos/logo1.png" rel="icon">
+    <link href="img/logos/cp1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
+                <h1 class="m-0"><img class="" src="img/logos/cp.png"style="width:70px; height: 70px;"> Ciber Protech</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -138,9 +138,9 @@
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h4 class="fw-bold text-primary text-uppercase">Our Vision</h4>
             </div>
-            <div class="row g-5">
+            <div class="row col-12">
                 <div class="d-flex justify-content-center align-items-center" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="bg-light rounded overflow-hidden" style="width: 600px;">
                         <div class=" text-center py-4" style="height: 160px;">
                             <p class="m-0">Advance with Technology for Technological warfare.</p>
                         </div>
@@ -149,12 +149,12 @@
             </div>
         </div>
         <div class="col-lg-6 container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto">
                 <h4 class="fw-bold text-primary text-uppercase">Our Mission</h4>
             </div>
             <div class="row g-5">
                 <div class="wow d-flex justify-content-center align-items-center" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="bg-light rounded overflow-hidden" style="width: 600px;"">
                         <div class="text-center py-4" style="height: 160px;">
                             <p class="m-0">To become a worldwide leading software company by introducing new technologies to the ever-developing business world creating the way easier to connect with the soft world physically for human beings.</p>
                         </div>

@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CIBERPROTECH | Contact Us</title>
+    <title>CIBER PROTECH | Contact Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/logos/logo1.png" rel="icon">
+    <link href="img/logos/cp1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@ require "loadAnimation.php";
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <a href="index.php" class="navbar-brand p-0">
-            <h1 class="m-0"><img class="" src="img/logos/logo1.png" style="width:50px; height: 50px;"> Maverick</h1>
+            <h1 class="m-0"><img class="" src="img/logos/cp.png"style="width:70px; height: 70px;"> Ciber Protech</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
@@ -61,10 +61,10 @@ require "loadAnimation.php";
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
-                        <a href="price.php" class="dropdown-item">Project Plan</a>
+<!--                        <a href="price.php" class="dropdown-item">Project Plan</a>-->
                         <a href="feature.php" class="dropdown-item">Our features</a>
                         <a href="team.php" class="dropdown-item">Team Members</a>
-                        <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+<!--                        <a href="testimonial.php" class="dropdown-item">Testimonial</a>-->
                     </div>
                 </div>
                 <a href="contact.php" class="nav-item nav-link active">Contact</a>
@@ -115,7 +115,7 @@ require "loadAnimation.php";
                     </div>
                     <div class="ps-4">
                         <h5 class="mb-2">Email to get free quote</h5>
-                        <h6 class="text-primary mb-0">maverickinternationalsl@gmail.com</h6>
+                        <h6 class="text-primary mb-0">ciberprotechtechnology@gmail.com</h6>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ require "loadAnimation.php";
                     </div>
                     <div class="ps-4">
                         <h5 class="mb-2">Visit our office</h5>
-                        <h6 class="text-primary mb-0">Colombo Sri Lanka</h6>
+                        <h6 class="text-primary mb-0">Colombo, Sri Lanka</h6>
                     </div>
                 </div>
             </div>
