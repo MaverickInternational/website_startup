@@ -899,5 +899,6 @@ h6,
     border-radius: 50%;
     object-fit: cover;
     -o-object-fit: cover;
+    object-position: top;
+    -o-object-position: top;
 }
-

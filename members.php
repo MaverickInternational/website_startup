@@ -9,7 +9,7 @@
             align-content-center" data-wow-delay="0.3s">
                 <div class="team-item text-center rounded ">
                     <div class="rounded-circle overflow-hidden m-4">
-                        <img class="imgs" src="img/profile/poojitha.jpg" alt="">
+                        <img class="imgs" style="object-position: center;" src="img/profile/poojitha.jpg" alt="">
                     </div>
                     <h5 class="mb-0">Poojitha Irosha</h5>
                     <small>CEO</small>
@@ -24,7 +24,7 @@
             align-content-center" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
-                        <img class="imgs" src="img/profile/Menuka.jpeg">
+                        <img class="imgs"  src="img/profile/Menuka.jpeg">
                     </div>
                     <h5 class="mb-0">Menuka Malinda</h5>
                     <small>Director</small>
