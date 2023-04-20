@@ -14,9 +14,9 @@
                     <h5 class="mb-0">Poojitha Irosha</h5>
                     <small>CEO</small>
                     <div class="d-flex justify-content-center mt-3 ">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/PoojithaIrosha"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/poojitha-irosha-84220b26a/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/poojitha_irosha/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -24,14 +24,14 @@
             align-content-center" data-wow-delay="0.6s">
                 <div class="team-item text-center rounded">
                     <div class="rounded-circle overflow-hidden m-4">
-                        <img class="imgs" src="img/profile/Menuka.jpeg" alt="">
+                        <img class="imgs" src="img/profile/Menuka.jpeg">
                     </div>
                     <h5 class="mb-0">Menuka Malinda</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/profile.php?id=100073361812160"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/menuka-malinda-83989a244/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/menuka_malinda/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -44,9 +44,9 @@
                     <h5 class="mb-0">Shehan Kaushalya</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/sk.bro.14661"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/shehan-kaushalya-998655265/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/shehan._k.__/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -62,9 +62,9 @@
                     <h5 class="mb-0">Chathumini Kahathuduwa</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/chathumini.dilshani.96"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/chathumini-kahathuduwa-9516a5222/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/chathukahathuduwa/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -77,9 +77,9 @@
                     <h5 class="mb-0">Shashini Amandi</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/sahina.mesandi.7"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/amandi-rajapaksha-585831143/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/sashini_amandi/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -92,8 +92,8 @@
                     <h5 class="mb-0">Kavindi Lakshani</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/kavindi.lakshani.7"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -109,9 +109,9 @@
                     <h5 class="mb-0">Praboth Charith</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/prabothc"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/prabothcharith/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/praboth_charith/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -124,9 +124,9 @@
                     <h5 class="mb-0">Kamalajeewa Dilshan</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/kamalajeewa.dilshan"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.linkedin.com/in/kamalajeewa-dilshan-276775233/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/___dilshan_00/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -139,8 +139,8 @@
                     <h5 class="mb-0">Ruvindu Pathirana</h5>
                     <small>Director</small>
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/ruvindu.dilsara1"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -148,70 +148,3 @@
         </div>
     </div>
 </div>
-
-<!--<div class="container-xxl pt-5 pb-3">-->
-<!--    <div class="container">-->
-<!--        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">-->
-<!--            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>-->
-<!--            <h1 class="mb-5">Our Master Chefs</h1>-->
-<!--        </div>-->
-<!--        <div class="row g-4">-->
-<!--            <div class="col-lg-3 col-md-6 wow " data-wow-delay="0.1s">-->
-<!--                <div class="team-item text-center rounded overflow-hidden">-->
-<!--                    <div class="rounded-circle overflow-hidden m-4">-->
-<!--                        <img class="img-fluid" src="img/team-1.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <h5 class="mb-0">Full Name</h5>-->
-<!--                    <small>Designation</small>-->
-<!--                    <div class="d-flex justify-content-center mt-3">-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">-->
-<!--                <div class="team-item text-center rounded overflow-hidden">-->
-<!--                    <div class="rounded-circle overflow-hidden m-4">-->
-<!--                        <img class="img-fluid" src="img/team-2.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <h5 class="mb-0">Full Name</h5>-->
-<!--                    <small>Designation</small>-->
-<!--                    <div class="d-flex justify-content-center mt-3">-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">-->
-<!--                <div class="team-item text-center rounded overflow-hidden">-->
-<!--                    <div class="rounded-circle overflow-hidden m-4">-->
-<!--                        <img class="img-fluid" src="img/team-3.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <h5 class="mb-0">Full Name</h5>-->
-<!--                    <small>Designation</small>-->
-<!--                    <div class="d-flex justify-content-center mt-3">-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">-->
-<!--                <div class="team-item text-center rounded overflow-hidden">-->
-<!--                    <div class="rounded-circle overflow-hidden m-4">-->
-<!--                        <img class="img-fluid" src="img/team-4.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <h5 class="mb-0">Full Name</h5>-->
-<!--                    <small>Designation</small>-->
-<!--                    <div class="d-flex justify-content-center mt-3">-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
