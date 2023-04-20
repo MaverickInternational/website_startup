@@ -199,6 +199,9 @@ require "loadAnimation.php";
 <?php require "message.php" ?>
 <!--End of Tawk.to Script-->
 
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <script type="text/javascript">
     $("#submit1").click(function () {
         const name = $("#name");
@@ -220,19 +223,32 @@ require "loadAnimation.php";
                 subject1 = subject.val();
             }
             $.ajax({
-                url: "https://formsubmit.co/ajax/maverickinternationalsl@gmail.com",
+                url: "https://formsubmit.co/ajax/ciberprotechtechnology@gmail.com",
                 method: "POST",
                 data: {
                     name: name.val(),
                     email: email.val(),
                     subject: subject1,
                     message: message.val()
-                }, success: (data) => console.log(data),
-                error: (err) => console.log(err),
+                }, success: function () {
+
+                    name.val("");
+                    subject.val("");
+                    email.val("");
+                    message.val("");
+
+                    swal({
+                        title: "Message sent successful!",
+                        text: "Your message was sent successfully, we will be contact you soon as possible ! " +
+                            "Have a nice day !",
+                        icon: "success",
+                        button: "Thanks",
+                    });
+
+                },
+                // error: (err) => console.log(err),
                 dataType: "json"
             });
-
-            console.log(name.val() + " | " + subject1 + " | " + email.val() + " | " + message.val());
         }
 
     });
