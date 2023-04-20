@@ -4,11 +4,17 @@
     <meta charset="utf-8">
     <title>CIBER PROTECH | Home</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+
+    <meta content="title here" name="title">
+    <meta content="description here" name="description">
+
+    <!--    website details (meta tages)-->
+    <meta name='title' content='Website Title Here...'/>
+    <meta name='description' content='Website description Here...'>
+    <meta property="og:image" content="img/logos/cp1.png"/>
 
     <!-- Favicon -->
-    <link href="img/logos/cp1.png" rel="icon">
+    <link href="img/logos/cp1.png" rel="shortcut icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +52,7 @@ require "loadAnimation.php";
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <a href="index.php" class="navbar-brand p-0">
-            <h1 class="m-0"><img class="" src="img/logos/cp.png"style="width:70px; height: 70px;"> Ciber Protech</h1>
+            <h1 class="m-0"><img class="" src="img/logos/cp.png" style="width:70px; height: 70px;"> Ciber Protech</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
@@ -71,7 +77,8 @@ require "loadAnimation.php";
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
                         class="fa fa-search"></i></button>
             <div class="buttons">
-                <button class="py-2 px-4 ms-3 btn-hover color-1"><i class="bi bi-person-fill text-white" style="height: 60px;"></i></button>
+                <button class="py-2 px-4 ms-3 btn-hover color-1"><i class="bi bi-person-fill text-white"
+                                                                    style="height: 60px;"></i></button>
             </div>
         </div>
     </nav>
@@ -85,7 +92,8 @@ require "loadAnimation.php";
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">WELLCOME TO</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">CIBER PROTECH Software
                         Solutions</h1>
-                    <a href="#" class="btn btn-primary buttons-borders py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                    <a href="#" class="btn btn-primary buttons-borders py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                        More</a>
                     <a href="contact.php"
                        class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact Us
                     </a>
@@ -99,9 +107,10 @@ require "loadAnimation.php";
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">WELLCOME TO</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Software
                         Solution</h1>
-                    <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft buttons-borders">Read More</a>
+                    <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft buttons-borders">Read
+                        More</a>
                     <a href="contact.php"
-                       class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact  Us
+                       class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight buttons-borders">Contact Us
                     </a>
                 </div>
             </div>
